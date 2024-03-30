@@ -1,0 +1,14 @@
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\bin\Debug\net8.0\NombreMystere.exe
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\bin\Debug\net8.0\NombreMystere.deps.json
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\bin\Debug\net8.0\NombreMystere.runtimeconfig.json
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\bin\Debug\net8.0\NombreMystere.dll
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\bin\Debug\net8.0\NombreMystere.pdb
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.AssemblyInfoInputs.cache
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.AssemblyInfo.cs
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.csproj.CoreCompileInputs.cache
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.dll
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\refint\NombreMystere.dll
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.pdb
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\NombreMystere.genruntimeconfig.cache
+C:\Users\midid\OneDrive\2_Damien\Code\VisualStudio\ProjetsGitHub\NombreMystere\obj\Debug\net8.0\ref\NombreMystere.dll
