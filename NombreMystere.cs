@@ -2,15 +2,12 @@
 
 string? readResult;
 string entreeUtilisateur = "";
-int nbMystere = 0;
-int nbUtilisateur = 0;
-int compteur = 0;
 
 do
 {
     Console.Clear();
-    Console.WriteLine("Bienvenue dans \"Le nombre Mystère\"");
-    Console.WriteLine("Choisis ton mode de jeu en tapant le numéro:");
+    Console.WriteLine("Bienvenue dans \"Le nombre Mystère\"\n");
+    Console.WriteLine("Choisis ton niveau de jeu en tapant le numéro correspondant:");
     Console.WriteLine("1- Trouve le nombre mystère entre 1 et 999.");
     Console.WriteLine("2- Trouve le nombre mystère entre 1 et 9 999.");
     Console.WriteLine("3- Trouve le nombre mystère entre 1 et 99 999.");
@@ -44,21 +41,24 @@ do
             break;
     }
 
-} while (entreeUtilisateur != "0" && entreeUtilisateur != "stop" && nbMystere != nbUtilisateur);
+} while (entreeUtilisateur != "0");
 
 
 void NumeroMystere(int nbMax)
 {
+    int nbMystere = 0;
+    int nbUtilisateur = 0;
+    int compteur = 0;
     Random nbAleatoire = new Random();
     nbMystere = nbAleatoire.Next(1, nbMax);
-
+    
     do
     {
         Console.Clear();
-        Console.WriteLine("Bienvenue dans \"Le nombre Mystère\"");
         Console.WriteLine($"Trouve le nombre mystère entre 1 et {nbMax:N0}.");
+        Console.WriteLine("Tape ton nombre puis entrée.");
         Console.WriteLine("Je te dirai si c'est plus ou moins!");
-        Console.WriteLine("Ecris stop pour arréter.");
+        Console.WriteLine("Ecris stop pour arréter ou changer de niveau.");
         Console.WriteLine("A toi de jouer...\n ");
         //Console.WriteLine("Nombre mystère = " + nbMystere);
 
@@ -85,7 +85,7 @@ void NumeroMystere(int nbMax)
 
             if (nbUtilisateur < 1 || nbUtilisateur > nbMax)
             {
-                Console.WriteLine($"Ton nombre n'est pas compris entre 1 et {nbMax:N0}");
+                Console.WriteLine($"Ton nombre n'est pas compris entre 1 et {nbMax:N0}\n");
                 compteur--;
                 continue;
             }
@@ -99,8 +99,8 @@ void NumeroMystere(int nbMax)
         } while (nbUtilisateur != nbMystere && entreeUtilisateur != "stop");
 
         Console.WriteLine($"BRAVO! Tu as trouvé le nombre mystère en {compteur} coups!");
+        compteur = 0;
         readResult = Console.ReadLine();
-        return;
 
     } while (nbUtilisateur != nbMystere);
 }
